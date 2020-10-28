@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM PENDAFTARAN SISWA</title>
+</head>
+<body>
+    <header>
+        <h1 style="color: darkturquoise;">Student Registration Form</h1>
+
+        
+    </header>
+    <form action="#" method="POST">
+        <hr/>
+        <table>
+                <h2>PERSONAL INFORMATION</h2>
+                <hr/>
+                <table style="width: 90%">
+                    <tr>
+                        <td style="width: 20%">NAMA LENGKAP</td>
+                        <td>:</td>
+                        <td><input style="width:100%" placeholder="Masukkan Nama Lengkap" required type="text" name="nama_lengkap"></td>
+                    </tr>
+                    <tr>
+                        <td>TANGGAL LAHIR</td>
+                        <td>:</td>
+                        <td><input style="width:100%" type="date"  name="tanggal_lahir" required></td>
+                    </tr>
+                    <tr>
+                    <td><label for="religion">Agama</label></td>
+                    <td>:</td>
+                    <td><select name="religion" required style="width : 70%">
+                        <option value="1">ISLAM</option>
+                        <option value="1">KRISTEN</option>
+                        <option value="1">KATHOLIK</option>
+                        <option value="1">BUDDHA</option>
+                        <option value="1">HINDU</option>
+                    </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Jenis Kelamin</label></td>
+                        <td>:</td>
+                        <td><input type="radio" name="gender" value="M" required>Laki - Laki
+                            <input type="radio" name="gender" value="W" required>Perempuan</td>
+                    </tr>
+                    <tr>
+                    <td><label for="status">Status</label></td>
+                    <td>:</td>
+                    <td><select name="status" required style="width : 70%">
+                        <option value="1">Single</option>
+                        <option value="1">Menikah</option>
+                    </select></td>
+                    </tr>
+        </table>
+        <hr/>
+        <table>
+                <h2>CONTACT INFORMATION</h2>
+                <hr/>
+                <table style="width: 90%">
+                    <tr>
+                        <td style="width: 20%">ALAMAT</td>
+                        <td>:</td>
+                        <td><textarea style="width:100%" name="alamat"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>KOTA</td>
+                        <td>:</td>
+                        <td><input style="width:100%" required placeholder="Kota" required type="text" name="nama"></td>
+                    </tr>
+                    <tr>
+                        <td>PROVINSI</td>
+                        <td>:</td>
+                        <td><input style="width:100%" required placeholder="Provinsi" required type="text" name="nama"></td>
+                    </tr>
+                    <tr>
+                        <td>KODE POS</td>
+                        <td>:</td>
+                        <td><input style="width:100%" required placeholder="Kode Pos" required type="text" name="nama"></td>
+                    </tr>
+                    <tr>
+                        <td>NOMOR TELEPON</td>
+                        <td>:</td>
+                        <td><input style="width:100%" required placeholder="Nomor Telepon" required type="number" name="nama"></td>
+                    </tr>
+                    <tr>
+                        <td>EMAIL</td>
+                        <td>:</td>
+                        <td><input style="width:100%" required placeholder="example@gmail.com" required type="email" name="nama"></td>
+                    </tr>
+                    <tr>
+                        <td>TIPE SISWA</td>
+                        <td>:</td>
+                        <td><input type="radio" value="Reguler" name="tipe">
+                            <label for="Reguler">Reguler</label>
+                            <input type="radio" value="Beasiswa" name="tipe">
+                            <label for="Beasiswa">Beasiswa</label>
+                            <input type="radio" value="Weekend" name="tipe">
+                            <label for="Weekend">Weekend</label></td>
+                        </tr>
+        </table>
+        <hr/>
+        <table>
+            <tr><td><button  style="width: 100%" type="submit">Submit</button></td></tr>
+        </table>
+    </form>
+</body>
+</html>
